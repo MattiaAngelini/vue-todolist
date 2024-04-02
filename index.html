@@ -34,8 +34,8 @@
             <!--TASK-->
 
             <section class="container">
-                <div  v-for="task in toDoList" class="ms-task d-flex justify-content-between border-bottom p-1">
-                    elemento da aggiungere
+                <div  v-for="task in toDoList" :class="{'text-decoration-line-through': task.done }" class="ms-task d-flex justify-content-between border-bottom p-1">
+                    {{task.text}}
                     <span><i class="fa-solid fa-xmark"></i></span>
                 </div>
 
