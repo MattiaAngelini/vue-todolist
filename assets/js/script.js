@@ -11,9 +11,7 @@ createApp({
         { text: 'fare il bucato', done: false },
         { text: 'andare in banca', done: true },
         { text: 'andare in palestra', done: false }
-      ],
-
-       
+      ],      
     };
   },
   methods: {
